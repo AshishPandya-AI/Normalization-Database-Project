@@ -1,0 +1,36 @@
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Ignore SQL Server temporary files
+*.bak
+*.sql~
+
+# Ignore Excel temp files
+~$*.xls*
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled output
+*.class
+*.exe
+*.out
+*.o
+
+# Ignore virtual environments (if used)
+venv/
+env/
